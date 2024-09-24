@@ -41,15 +41,16 @@
 .btn-lg {
   padding: 1rem 2rem;
 
-  font-size: 1.125;
+  font-size: 1.125rem;
 }
 .btn[aria-label] {
   position: relative;
+
   &::before {
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 0.09375rem;
+    inset: 1px;
     background-color: var(--bg-color);
   }
   &::after {
